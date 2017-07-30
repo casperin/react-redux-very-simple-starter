@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "watchify src/index.js -t babelify -o www/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "watchify": "^3.9.0"
+  }
+}
